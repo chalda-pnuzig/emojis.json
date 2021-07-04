@@ -4,33 +4,42 @@ List of all emojis in json format.
 
 The list of emoji was retrieved from [Full Emoji Data](http://www.unicode.org/emoji/charts/full-emoji-list.html), v13.1
 
-There are 4 different files:
+There are different files:
 
-- [**array.json**](#array.json)
-- [**list.json**](#list.json)
-- [**list.images.json**](#list.images.json)
-- [**categories.json**](#categories.json)
-- [**categories.images.json**](#categories.images.json)
+### Array of all available emojis
 
--------------------------------------------------------------------------------
+|File                                        | Standard | Modifiers | Images | Size       
+|--------------------------------------------|----------|-----------|--------|------------
+| **array.json**                             | ✔        | ❌        | ❌     | 16 KB      |
+| array.only.modifiers.json                  | ❌        | ✔        | ❌     | 32 KB      |modifiers only
+| array.with.modifiers.json                  | ✔        | ✔        | ❌     | 47 KB      |
 
-### `array.json`
+### Array of emoji objects 
+|File                                        | Standard | Modifiers | Images | Size       
+|--------------------------------------------|----------|-----------|--------|------------
+| **list.json**                              | ✔        | ❌        | ❌     | 514 KB     |
+| list.only.modifiers.json                   | ❌        | ✔        | ❌     | 554 KB     |
+| list.with.modifiers.json                   | ✔        | ✔        | ❌     | 1068 KB    |
+| list.with.images.json                      | ✔        | ❌        | ✔     | 33268 KB  |
+| list.only.modifiers.with.images.json       | ❌        | ✔        | ✔     | 32859 KB   |
+| list.with.images.with.modifiers.json       | ✔        | ✔        | ✔     | 66127 KB   |
 
-[`https://unpkg.com/@chalda/emojis.json/dist/array.json`](https://unpkg.com/@chalda/emojis.json/dist/array.json)
+### Array of emoji objects enclosed in their respective categories and sub-categories
+|File                                        | Standard | Modifiers | Images | Size       
+|--------------------------------------------|----------|-----------|--------|------------
+| **categories.json**                        | ✔        | ❌        | ❌     | 423 KB    | 
+| categories.only.modifiers.json             | ❌        | ✔        | ❌     | 463 KB    | 
+| categories.with.modifiers.json             | ✔        | ✔        | ❌     | 884 KB    | 
+| categories.with.images.json                | ✔        | ❌        | ✔     | 33177 KB  | 
+| categories.only.modifiers.with.images.json | ❌        | ✔        | ✔     | 32768 KB  | 
+| categories.with.images.with.modifiers      | ✔        | ✔        | ✔     | 65944 KB  |
 
-Only an array of all available emojis.
 
--------------------------------------------------------------------------------
 
-### `list.json`
+### Emoji Object:
 
-[`https://unpkg.com/@chalda/emojis.json/dist/list.json`](https://unpkg.com/@chalda/emojis.json/dist/list.json)
-
-An array of emojis with some properties:
-
-- `n` <_int_> :  a line count, for reference
 - `code` <_array_> : the code point(s) for the emoji characters and sequences
-- `emoji` <_string_> : The character
+- `emoji` <_string_> : The emoji character
 - `name` <_string_> :  The CLDR short name for the character or sequence in American English
 - `category` <_string_> : The main category
 - `subcategory` <_string_>: The minor category
@@ -46,16 +55,7 @@ An array of emojis with some properties:
     - `softbank` <_bool_>
     - `docomo` <_bool_>
     - `kddi` <_bool_>
-
--------------------------------------------------------------------------------
-
-### `list.images.json`
-
-[`https://unpkg.com/@chalda/emojis.json/dist/list.images.json`](https://unpkg.com/@chalda/emojis.json/dist/list.images.json)
-
-Same as `list.json` but with the `images` property containing a png representation of the emoji by the respective resource
-
-- `images` <_array_> : array containing the png emoji in base64 by the respective resource, false if not present
+- `images` <_array_> :array containing the png emoji in base64 by the respective resource, false if not present (only in the file `.with.images`)
     - `apple` <_base64|false_>
     - `google` <_base64|false_>
     - `facebook` <_base64|false_>
@@ -67,20 +67,3 @@ Same as `list.json` but with the `images` property containing a png representati
     - `softbank` <_base64|false_>
     - `docomo` <_base64|false_>
     - `kddi` <_base64|false_>
-
--------------------------------------------------------------------------------
-
-### `categories.json`
-
-[`https://unpkg.com/@chalda/emojis.json/dist/categories.json`](https://unpkg.com/@chalda/emojis.json/dist/categories.json)
-
-Same as `list.json` but emojis are enclosed in their respective categories and sub-categories
-
--------------------------------------------------------------------------------
-
-### `categories.images.json`
-
-[`https://unpkg.com/@chalda/emojis.json/dist/categories.images.json`](`https://unpkg.com/@chalda/emojis.json/dist/categories.images.json`)
-
-Same as `list.images.json` but emojis are enclosed in their respective categories and sub-categories
- 
