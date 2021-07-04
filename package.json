@@ -1,0 +1,24 @@
+{
+	"name": "@chalda/emojis.json",
+	"version": "13.1.0",
+	"description": "emojis.json contains all emojis in json format.",
+	"main": "dist/list.min.json",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/chalda-pnuzig/emojis.json.git"
+	},
+	"author": "Chalda Pnuzig <chalda@chalda.it>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/chalda-pnuzig/emojis.json/issues"
+	},
+	"homepage": "https://github.com/chalda-pnuzig/emojis.json#readme",
+	"keywords": [
+		"emoji",
+		"emojis"
+	],
+	"funding": {
+		"type": "donate",
+		"url": "https://www.paypal.me/chaldapnuzig"
+	}
+}
