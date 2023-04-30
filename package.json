@@ -1,6 +1,6 @@
 {
 	"name": "@chalda/emojis.json",
-	"version": "13.1.1",
+	"version": "15.0.0",
 	"description": "emojis.json contains all emojis in json format.",
 	"main": "dist/list.min.json",
 	"repository": {
