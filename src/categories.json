@@ -1,7 +1,7 @@
 {
-    "@version": "13.1.0",
+    "@version": "15.0.0",
     "@author": "Chalda Pnuzig <chalda＠chalda.it>",
-    "@copyright": "Chalda Pnuzig 2021",
+    "@copyright": "Chalda Pnuzig 2021-2023",
     "@see": "{@link https://github.com/chalda-pnuzig/emojis.json|GitHub}",
     "@license": "ISC",
     "emojis": {
@@ -201,6 +201,26 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAE0"
+                    ],
+                    "emoji": "🫠",
+                    "name": "melting face",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -578,7 +598,7 @@
                         "1F917"
                     ],
                     "emoji": "🤗",
-                    "name": "hugging face",
+                    "name": "smiling face with open hands",
                     "support": {
                         "apple": true,
                         "google": true,
@@ -607,6 +627,46 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAE2"
+                    ],
+                    "emoji": "🫢",
+                    "name": "face with open eyes and hand over mouth",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAE3"
+                    ],
+                    "emoji": "🫣",
+                    "name": "face with peeking eye",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -647,6 +707,26 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAE1"
+                    ],
+                    "emoji": "🫡",
+                    "name": "saluting face",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -757,15 +837,45 @@
                 },
                 {
                     "code": [
+                        "1FAE5"
+                    ],
+                    "emoji": "🫥",
+                    "name": "dotted line face",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1F636",
                         "200D",
                         "1F32B",
                         "FE0F"
                     ],
                     "emoji": "😶‍🌫️",
-                    "name": "⊛ face in clouds",
+                    "name": "face in clouds",
                     "support": {
-                        "apple": true
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -855,9 +965,19 @@
                         "1F4A8"
                     ],
                     "emoji": "😮‍💨",
-                    "name": "⊛ face exhaling",
+                    "name": "face exhaling",
                     "support": {
-                        "apple": true
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -878,6 +998,16 @@
                         "softbank": false,
                         "docomo": false,
                         "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAE8"
+                    ],
+                    "emoji": "🫨",
+                    "name": "⊛ shaking face",
+                    "support": {
+                        "apple": true
                     }
                 }
             ],
@@ -1169,7 +1299,7 @@
                         "1F635"
                     ],
                     "emoji": "😵",
-                    "name": "knocked-out face",
+                    "name": "face with crossed-out eyes",
                     "support": {
                         "apple": true,
                         "google": true,
@@ -1191,9 +1321,19 @@
                         "1F4AB"
                     ],
                     "emoji": "😵‍💫",
-                    "name": "⊛ face with spiral eyes",
+                    "name": "face with spiral eyes",
                     "support": {
-                        "apple": true
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -1364,6 +1504,26 @@
                 },
                 {
                     "code": [
+                        "1FAE4"
+                    ],
+                    "emoji": "🫤",
+                    "name": "face with diagonal mouth",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1F61F"
                     ],
                     "emoji": "😟",
@@ -1516,6 +1676,26 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1F979"
+                    ],
+                    "emoji": "🥹",
+                    "name": "face holding back tears",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -1849,7 +2029,7 @@
                         "1F621"
                     ],
                     "emoji": "😡",
-                    "name": "pouting face",
+                    "name": "enraged face",
                     "support": {
                         "apple": true,
                         "google": true,
@@ -2391,27 +2571,7 @@
                     }
                 }
             ],
-            "emotion": [
-                {
-                    "code": [
-                        "1F48B"
-                    ],
-                    "emoji": "💋",
-                    "name": "kiss mark",
-                    "support": {
-                        "apple": true,
-                        "google": true,
-                        "facebook": true,
-                        "windows": true,
-                        "twitter": true,
-                        "joypixels": true,
-                        "samsung": true,
-                        "gmail": true,
-                        "softbank": true,
-                        "docomo": true,
-                        "kddi": true
-                    }
-                },
+            "heart": [
                 {
                     "code": [
                         "1F48C"
@@ -2640,9 +2800,19 @@
                         "1F525"
                     ],
                     "emoji": "❤️‍🔥",
-                    "name": "⊛ heart on fire",
+                    "name": "heart on fire",
                     "support": {
-                        "apple": true
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -2653,9 +2823,19 @@
                         "1FA79"
                     ],
                     "emoji": "❤️‍🩹",
-                    "name": "⊛ mending heart",
+                    "name": "mending heart",
                     "support": {
-                        "apple": true
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -2676,6 +2856,16 @@
                         "softbank": true,
                         "docomo": true,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FA77"
+                    ],
+                    "emoji": "🩷",
+                    "name": "⊛ pink heart",
+                    "support": {
+                        "apple": true
                     }
                 },
                 {
@@ -2760,6 +2950,16 @@
                 },
                 {
                     "code": [
+                        "1FA75"
+                    ],
+                    "emoji": "🩵",
+                    "name": "⊛ light blue heart",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
                         "1F49C"
                     ],
                     "emoji": "💜",
@@ -2820,6 +3020,16 @@
                 },
                 {
                     "code": [
+                        "1FA76"
+                    ],
+                    "emoji": "🩶",
+                    "name": "⊛ grey heart",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
                         "1F90D"
                     ],
                     "emoji": "🤍",
@@ -2836,6 +3046,28 @@
                         "softbank": false,
                         "docomo": false,
                         "kddi": false
+                    }
+                }
+            ],
+            "emotion": [
+                {
+                    "code": [
+                        "1F48B"
+                    ],
+                    "emoji": "💋",
+                    "name": "kiss mark",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": true,
+                        "windows": true,
+                        "twitter": true,
+                        "joypixels": true,
+                        "samsung": true,
+                        "gmail": true,
+                        "softbank": true,
+                        "docomo": true,
+                        "kddi": true
                     }
                 },
                 {
@@ -2980,26 +3212,6 @@
                 },
                 {
                     "code": [
-                        "1F4A3"
-                    ],
-                    "emoji": "💣",
-                    "name": "bomb",
-                    "support": {
-                        "apple": true,
-                        "google": true,
-                        "facebook": true,
-                        "windows": true,
-                        "twitter": true,
-                        "joypixels": true,
-                        "samsung": true,
-                        "gmail": true,
-                        "softbank": true,
-                        "docomo": true,
-                        "kddi": true
-                    }
-                },
-                {
-                    "code": [
                         "1F4AC"
                     ],
                     "emoji": "💬",
@@ -3107,7 +3319,7 @@
                         "1F4A4"
                     ],
                     "emoji": "💤",
-                    "name": "zzz",
+                    "name": "ZZZ",
                     "support": {
                         "apple": true,
                         "google": true,
@@ -3225,6 +3437,106 @@
                         "docomo": false,
                         "kddi": false
                     }
+                },
+                {
+                    "code": [
+                        "1FAF1"
+                    ],
+                    "emoji": "🫱",
+                    "name": "rightwards hand",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAF2"
+                    ],
+                    "emoji": "🫲",
+                    "name": "leftwards hand",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAF3"
+                    ],
+                    "emoji": "🫳",
+                    "name": "palm down hand",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAF4"
+                    ],
+                    "emoji": "🫴",
+                    "name": "palm up hand",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAF7"
+                    ],
+                    "emoji": "🫷",
+                    "name": "⊛ leftwards pushing hand",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FAF8"
+                    ],
+                    "emoji": "🫸",
+                    "name": "⊛ rightwards pushing hand",
+                    "support": {
+                        "apple": true
+                    }
                 }
             ],
             "hand-fingers-partial": [
@@ -3322,6 +3634,26 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAF0"
+                    ],
+                    "emoji": "🫰",
+                    "name": "hand with index finger and thumb crossed",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -3509,6 +3841,26 @@
                         "docomo": false,
                         "kddi": true
                     }
+                },
+                {
+                    "code": [
+                        "1FAF5"
+                    ],
+                    "emoji": "🫵",
+                    "name": "index pointing at the viewer",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
                 }
             ],
             "hand-fingers-closed": [
@@ -3672,6 +4024,26 @@
                         "softbank": true,
                         "docomo": false,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FAF6"
+                    ],
+                    "emoji": "🫶",
+                    "name": "heart hands",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -4157,6 +4529,26 @@
                         "docomo": false,
                         "kddi": true
                     }
+                },
+                {
+                    "code": [
+                        "1FAE6"
+                    ],
+                    "emoji": "🫦",
+                    "name": "biting lip",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
                 }
             ],
             "person": [
@@ -4328,9 +4720,19 @@
                         "FE0F"
                     ],
                     "emoji": "🧔‍♂️",
-                    "name": "⊛ man: beard",
+                    "name": "man: beard",
                     "support": {
-                        "apple": true
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -4341,9 +4743,19 @@
                         "FE0F"
                     ],
                     "emoji": "🧔‍♀️",
-                    "name": "⊛ woman: beard",
+                    "name": "woman: beard",
                     "support": {
-                        "apple": true
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -6753,6 +7165,26 @@
                 },
                 {
                     "code": [
+                        "1FAC5"
+                    ],
+                    "emoji": "🫅",
+                    "name": "person with crown",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1F934"
                     ],
                     "emoji": "🤴",
@@ -7043,6 +7475,46 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAC3"
+                    ],
+                    "emoji": "🫃",
+                    "name": "pregnant man",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAC4"
+                    ],
+                    "emoji": "🫄",
+                    "name": "pregnant person",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -7807,6 +8279,26 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1F9CC"
+                    ],
+                    "emoji": "🧌",
+                    "name": "troll",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -11229,6 +11721,26 @@
                 },
                 {
                     "code": [
+                        "1FACE"
+                    ],
+                    "emoji": "🫎",
+                    "name": "⊛ moose",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FACF"
+                    ],
+                    "emoji": "🫏",
+                    "name": "⊛ donkey",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
                         "1F40E"
                     ],
                     "emoji": "🐎",
@@ -12471,6 +12983,38 @@
                         "docomo": false,
                         "kddi": false
                     }
+                },
+                {
+                    "code": [
+                        "1FABD"
+                    ],
+                    "emoji": "🪽",
+                    "name": "⊛ wing",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
+                        "1F426",
+                        "200D",
+                        "2B1B"
+                    ],
+                    "emoji": "🐦‍⬛",
+                    "name": "⊛ black bird",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FABF"
+                    ],
+                    "emoji": "🪿",
+                    "name": "⊛ goose",
+                    "support": {
+                        "apple": true
+                    }
                 }
             ],
             "animal-amphibian": [
@@ -12856,6 +13400,36 @@
                         "softbank": true,
                         "docomo": false,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FAB8"
+                    ],
+                    "emoji": "🪸",
+                    "name": "coral",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FABC"
+                    ],
+                    "emoji": "🪼",
+                    "name": "⊛ jellyfish",
+                    "support": {
+                        "apple": true
                     }
                 }
             ],
@@ -13244,6 +13818,26 @@
                 },
                 {
                     "code": [
+                        "1FAB7"
+                    ],
+                    "emoji": "🪷",
+                    "name": "lotus",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1F3F5"
                     ],
                     "emoji": "🏵",
@@ -13380,6 +13974,16 @@
                         "softbank": true,
                         "docomo": true,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FABB"
+                    ],
+                    "emoji": "🪻",
+                    "name": "⊛ hyacinth",
+                    "support": {
+                        "apple": true
                     }
                 }
             ],
@@ -13642,6 +14246,66 @@
                         "softbank": true,
                         "docomo": false,
                         "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAB9"
+                    ],
+                    "emoji": "🪹",
+                    "name": "empty nest",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FABA"
+                    ],
+                    "emoji": "🪺",
+                    "name": "nest with eggs",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1F344"
+                    ],
+                    "emoji": "🍄",
+                    "name": "mushroom",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": true,
+                        "windows": true,
+                        "twitter": true,
+                        "joypixels": true,
+                        "samsung": true,
+                        "gmail": true,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": true
                     }
                 }
             ]
@@ -14272,26 +14936,6 @@
                 },
                 {
                     "code": [
-                        "1F344"
-                    ],
-                    "emoji": "🍄",
-                    "name": "mushroom",
-                    "support": {
-                        "apple": true,
-                        "google": true,
-                        "facebook": true,
-                        "windows": true,
-                        "twitter": true,
-                        "joypixels": true,
-                        "samsung": true,
-                        "gmail": true,
-                        "softbank": false,
-                        "docomo": false,
-                        "kddi": true
-                    }
-                },
-                {
-                    "code": [
                         "1F95C"
                     ],
                     "emoji": "🥜",
@@ -14304,6 +14948,26 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAD8"
+                    ],
+                    "emoji": "🫘",
+                    "name": "beans",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -14328,6 +14992,26 @@
                         "softbank": false,
                         "docomo": false,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FADA"
+                    ],
+                    "emoji": "🫚",
+                    "name": "⊛ ginger root",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FADB"
+                    ],
+                    "emoji": "🫛",
+                    "name": "⊛ pea pod",
+                    "support": {
+                        "apple": true
                     }
                 }
             ],
@@ -16022,6 +16706,26 @@
                 },
                 {
                     "code": [
+                        "1FAD7"
+                    ],
+                    "emoji": "🫗",
+                    "name": "pouring liquid",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1F964"
                     ],
                     "emoji": "🥤",
@@ -16220,6 +16924,26 @@
                         "softbank": false,
                         "docomo": false,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FAD9"
+                    ],
+                    "emoji": "🫙",
+                    "name": "jar",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -17476,6 +18200,26 @@
                 },
                 {
                     "code": [
+                        "1F6DD"
+                    ],
+                    "emoji": "🛝",
+                    "name": "playground slide",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1F3A1"
                     ],
                     "emoji": "🎡",
@@ -18438,6 +19182,26 @@
                 },
                 {
                     "code": [
+                        "1F6DE"
+                    ],
+                    "emoji": "🛞",
+                    "name": "wheel",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1F6A8"
                     ],
                     "emoji": "🚨",
@@ -18556,6 +19320,26 @@
                         "softbank": false,
                         "docomo": false,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1F6DF"
+                    ],
+                    "emoji": "🛟",
+                    "name": "ring buoy",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -21718,6 +22502,26 @@
                 },
                 {
                     "code": [
+                        "1F52B"
+                    ],
+                    "emoji": "🔫",
+                    "name": "water pistol",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": true,
+                        "windows": true,
+                        "twitter": true,
+                        "joypixels": true,
+                        "samsung": true,
+                        "gmail": true,
+                        "softbank": true,
+                        "docomo": false,
+                        "kddi": true
+                    }
+                },
+                {
+                    "code": [
                         "1F3B1"
                     ],
                     "emoji": "🎱",
@@ -21770,26 +22574,6 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": false,
-                        "gmail": false,
-                        "softbank": false,
-                        "docomo": false,
-                        "kddi": false
-                    }
-                },
-                {
-                    "code": [
-                        "1F9FF"
-                    ],
-                    "emoji": "🧿",
-                    "name": "nazar amulet",
-                    "support": {
-                        "apple": true,
-                        "google": true,
-                        "facebook": true,
-                        "windows": true,
-                        "twitter": true,
-                        "joypixels": true,
-                        "samsung": true,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -21929,6 +22713,26 @@
                         "windows": false,
                         "twitter": true,
                         "joypixels": true,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAA9"
+                    ],
+                    "emoji": "🪩",
+                    "name": "mirror ball",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
                         "samsung": false,
                         "gmail": false,
                         "softbank": false,
@@ -22664,6 +23468,16 @@
                 },
                 {
                     "code": [
+                        "1FAAD"
+                    ],
+                    "emoji": "🪭",
+                    "name": "⊛ folding hand fan",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
                         "1F45B"
                     ],
                     "emoji": "👛",
@@ -22940,6 +23754,16 @@
                         "softbank": true,
                         "docomo": false,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FAAE"
+                    ],
+                    "emoji": "🪮",
+                    "name": "⊛ hair pick",
+                    "support": {
+                        "apple": true
                     }
                 },
                 {
@@ -23707,6 +24531,26 @@
                         "docomo": false,
                         "kddi": false
                     }
+                },
+                {
+                    "code": [
+                        "1FA87"
+                    ],
+                    "emoji": "🪇",
+                    "name": "⊛ maracas",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FA88"
+                    ],
+                    "emoji": "🪈",
+                    "name": "⊛ flute",
+                    "support": {
+                        "apple": true
+                    }
                 }
             ],
             "phone": [
@@ -23850,6 +24694,26 @@
                         "softbank": false,
                         "docomo": false,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1FAAB"
+                    ],
+                    "emoji": "🪫",
+                    "name": "low battery",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
@@ -26090,10 +26954,10 @@
                 },
                 {
                     "code": [
-                        "1F52B"
+                        "1F4A3"
                     ],
-                    "emoji": "🔫",
-                    "name": "water pistol",
+                    "emoji": "💣",
+                    "name": "bomb",
                     "support": {
                         "apple": true,
                         "google": true,
@@ -26104,7 +26968,7 @@
                         "samsung": true,
                         "gmail": true,
                         "softbank": true,
-                        "docomo": false,
+                        "docomo": true,
                         "kddi": true
                     }
                 },
@@ -26674,6 +27538,26 @@
                 },
                 {
                     "code": [
+                        "1FA7C"
+                    ],
+                    "emoji": "🩼",
+                    "name": "crutch",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1FA7A"
                     ],
                     "emoji": "🩺",
@@ -26686,6 +27570,26 @@
                         "twitter": true,
                         "joypixels": true,
                         "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FA7B"
+                    ],
+                    "emoji": "🩻",
+                    "name": "x-ray",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
                         "gmail": false,
                         "softbank": false,
                         "docomo": false,
@@ -27096,6 +28000,26 @@
                 },
                 {
                     "code": [
+                        "1FAE7"
+                    ],
+                    "emoji": "🫧",
+                    "name": "bubbles",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1FAA5"
                     ],
                     "emoji": "🪥",
@@ -27258,6 +28182,46 @@
                 },
                 {
                     "code": [
+                        "1F9FF"
+                    ],
+                    "emoji": "🧿",
+                    "name": "nazar amulet",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": true,
+                        "windows": true,
+                        "twitter": true,
+                        "joypixels": true,
+                        "samsung": true,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAAC"
+                    ],
+                    "emoji": "🪬",
+                    "name": "hamsa",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
                         "1F5FF"
                     ],
                     "emoji": "🗿",
@@ -27289,6 +28253,26 @@
                         "windows": false,
                         "twitter": true,
                         "joypixels": true,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
+                    }
+                },
+                {
+                    "code": [
+                        "1FAAA"
+                    ],
+                    "emoji": "🪪",
+                    "name": "identification card",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
                         "samsung": false,
                         "gmail": false,
                         "softbank": false,
@@ -28485,6 +29469,16 @@
                         "docomo": false,
                         "kddi": false
                     }
+                },
+                {
+                    "code": [
+                        "1FAAF"
+                    ],
+                    "emoji": "🪯",
+                    "name": "⊛ khanda",
+                    "support": {
+                        "apple": true
+                    }
                 }
             ],
             "zodiac": [
@@ -29192,6 +30186,16 @@
                 },
                 {
                     "code": [
+                        "1F6DC"
+                    ],
+                    "emoji": "🛜",
+                    "name": "⊛ wireless",
+                    "support": {
+                        "apple": true
+                    }
+                },
+                {
+                    "code": [
                         "1F4F3"
                     ],
                     "emoji": "📳",
@@ -29372,6 +30376,26 @@
                         "softbank": false,
                         "docomo": false,
                         "kddi": true
+                    }
+                },
+                {
+                    "code": [
+                        "1F7F0"
+                    ],
+                    "emoji": "🟰",
+                    "name": "heavy equals sign",
+                    "support": {
+                        "apple": true,
+                        "google": true,
+                        "facebook": false,
+                        "windows": false,
+                        "twitter": false,
+                        "joypixels": false,
+                        "samsung": false,
+                        "gmail": false,
+                        "softbank": false,
+                        "docomo": false,
+                        "kddi": false
                     }
                 },
                 {
