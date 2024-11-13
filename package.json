@@ -1,24 +1,24 @@
 {
-	"name": "@chalda/emojis.json",
-	"version": "16.0.0",
-	"description": "emojis.json contains all emojis in json format.",
-	"main": "dist/list.min.json",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/chalda-pnuzig/emojis.json.git"
-	},
-	"author": "Chalda Pnuzig <chalda@chalda.it>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/chalda-pnuzig/emojis.json/issues"
-	},
-	"homepage": "https://github.com/chalda-pnuzig/emojis.json#readme",
-	"keywords": [
-		"emoji",
-		"emojis"
-	],
-	"funding": {
-		"type": "donate",
-		"url": "https://www.paypal.me/chaldapnuzig"
-	}
+  "name": "@chalda/emojis.json",
+  "version": "16.0.1",
+  "description": "A comprehensive collection of emoji data in JSON format (version 16.0), featuring various structures such as arrays and categorized objects, with options for including modifiers and base64-encoded images.",
+  "main": "dist/list.min.json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chalda-pnuzig/emojis.json.git"
+  },
+  "author": "Chalda Pnuzig <chalda[ a t ]chalda[d o t]it> (https://chalda.it)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chalda-pnuzig/emojis.json/issues"
+  },
+  "homepage": "https://github.com/chalda-pnuzig/emojis.json#readme",
+  "keywords": [
+    "emoji",
+    "emojis"
+  ],
+  "funding": {
+    "type": "donate",
+    "url": "https://www.paypal.me/chaldapnuzig"
+  }
 }

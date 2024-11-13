@@ -1,70 +1,49 @@
 # Emojis.json
 
-List of all emojis in json format, **v16.0**
+This repository contains a comprehensive list of emojis in JSON format, **version 16.0**
 
-The list of emoji was retrieved from [Full Emoji Data](http://www.unicode.org/emoji/charts/full-emoji-list.html),
-**v16.0**
+The data was sourced from the [Full Emoji Data](https://www.unicode.org/emoji/charts/full-emoji-list.html),
+**version 16.0**
 
-There are different files:
+## Available Files
 
-### Array of all available emojis
+### Array of all available Emojis
 
-| File                      | Standard | Modifiers | Images | Size     |
-|---------------------------|----------|-----------|--------|----------|
-| **array.json**            | ✔        | ❌         | ❌      | 17 KB    |
-| array.only.modifiers.json | ❌        | ✔         | ❌      | 34 KB    |
-| array.with.modifiers.json | ✔        | ✔         | ❌      | 51 KB    |
+| File                      | Standard | Modifiers | Images |  Size |
+|---------------------------|:--------:|:---------:|:------:|------:|
+| **array.json**            |    ✔     |     ❌     |   ❌    | 17 KB |
+| array.only.modifiers.json |    ✔     |     ✔     |   ❌    | 34 KB |
+| array.with.modifiers.json |    ✔     |     ✔     |   ❌    | 51 KB |
 
-### Array of emoji objects
+### Array of Emoji Objects
 
-| File                                 | Standard | Modifiers | Images | Size     |     
-|--------------------------------------|----------|-----------|--------|----------|
-| **list.json**                        | ✔        | ❌         | ❌      | 379 KB   |
-| list.only.modifiers.json             | ❌        | ✔         | ❌      | 365 KB   |
-| list.with.modifiers.json             | ✔        | ✔         | ❌      | 744 KB   |
-| list.with.images.json                | ✔        | ❌         | ✔      | 7666 KB  |
-| list.only.modifiers.with.images.json | ❌        | ✔         | ✔      | 8715 KB  |
-| list.with.images.with.modifiers.json | ✔        | ✔         | ✔      | 16381 KB |
+| File                                 | Standard | Modifiers | Images |   Size |     
+|--------------------------------------|:--------:|:---------:|:------:|-------:|
+| **list.json**                        |    ✔     |     ❌     |   ❌    | 216 KB |
+| list.only.modifiers.json             |    ❌     |     ✔     |   ❌    | 320 KB |
+| list.with.modifiers.json             |    ✔     |     ✔     |   ❌    | 535 KB |
+| list.with.images.json                |    ✔     |     ❌     |   ✔    |   7 MB |
+| list.only.modifiers.with.images.json |    ❌     |     ✔     |   ✔    |   8 MB |
+| list.with.images.with.modifiers.json |    ✔     |     ✔     |   ✔    |  15 MB |
 
-### Array of emoji objects enclosed in their respective categories and sub-categories
+### Array of Emoji Objects organized by Categories and Subcategories
 
-| File                                       | Standard | Modifiers | Images | Size     |     
-|--------------------------------------------|----------|-----------|--------|----------|
-| **categories.json**                        | ✔        | ❌         | ❌      | 282 KB   | 
-| categories.only.modifiers.json             | ❌        | ✔         | ❌      | 264 KB   | 
-| categories.with.modifiers.json             | ✔        | ✔         | ❌      | 546 KB   | 
-| categories.with.images.json                | ✔        | ❌         | ✔      | 7570 KB  | 
-| categories.only.modifiers.with.images.json | ❌        | ✔         | ✔      | 8613 KB  | 
-| categories.with.images.with.modifiers      | ✔        | ✔         | ✔      | 16183 KB |
+| File                                       | Standard | Modifiers | Images |   Size |     
+|--------------------------------------------|:--------:|:---------:|:------:|-------:|
+| **categories.json**                        |    ✔     |     ❌     |   ❌    | 119 KB | 
+| categories.only.modifiers.json             |    ❌     |     ✔     |   ❌    | 218 KB | 
+| categories.with.modifiers.json             |    ✔     |     ✔     |   ❌    | 337 KB | 
+| categories.with.images.json                |    ✔     |     ❌     |   ✔    |   7 MB | 
+| categories.only.modifiers.with.images.json |    ❌     |     ✔     |   ✔    |   8 MB | 
+| categories.with.images.with.modifiers      |    ✔     |     ✔     |   ✔    |  15 MB |
 
-### Emoji Object:
+### Emoji Object Structure:
 
-- `code` <_array_> : the code point(s) for the emoji characters and sequences
-- `emoji` <_string_> : The emoji character
-- `name` <_string_> :  The CLDR short name for the character or sequence in American English
-- `category` <_string_> : The main category
-- `subcategory` <_string_>: The minor category
-- `support` <_array_> : array containing whether the emoji is supported by the respective resource
-    - `apple` <_bool_>
-    - `google` <_bool_>
-    - `facebook` <_bool_>
-    - `windows` <_bool_>
-    - `twitter` <_bool_>
-    - `joypixels` <_bool_>
-    - `samsung` <_bool_>
-    - `gmail` <_bool_>
-    - `softbank` <_bool_>
-    - `docomo` <_bool_>
-    - `kddi` <_bool_>
-- `images` <_array_> :array containing the png emoji in base64 by the respective resource, false if not present (only in the file `.with.images`)
-    - `apple` <_base64|false_>
-    - `google` <_base64|false_>
-    - `facebook` <_base64|false_>
-    - `windows` <_base64|false_>
-    - `twitter` <_base64|false_>
-    - `joypixels` <_base64|false_>
-    - `samsung` <_base64|false_>
-    - `gmail` <_base64|false_>
-    - `softbank` <_base64|false_>
-    - `docomo` <_base64|false_>
-    - `kddi` <_base64|false_>
+Each emoji object includes the following properties:
+
+- `code` <_array_> : the code point(s) for the emoji characters and sequences.
+- `emoji` <_string_> : The visual representation of the emoji.
+- `name` <_string_> :  The CLDR short name for the character or sequence in American English.
+- `category` <_string_> : The primary category of the emoji.
+- `subcategory` <_string_>: The subcategory under which the emoji falls.
+- `image` <_base64|false_> : The emoji image in base64 format, available only in `.with.images` files. False if not present.
