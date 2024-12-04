@@ -1,13 +1,13 @@
 {
   "name": "@chalda/emojis.json",
-  "version": "16.0.1",
+  "version": "16.0.2",
   "description": "A comprehensive collection of emoji data in JSON format (version 16.0), featuring various structures such as arrays and categorized objects, with options for including modifiers and base64-encoded images.",
   "main": "dist/list.min.json",
   "repository": {
     "type": "git",
     "url": "git://github.com/chalda-pnuzig/emojis.json.git"
   },
-  "author": "Chalda Pnuzig <chalda＠chalda.it> (https://chalda.it)",
+  "author": "Chalda Pnuzig <chalda_emoji@chalda.it> (https://chalda.it)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chalda-pnuzig/emojis.json/issues"
