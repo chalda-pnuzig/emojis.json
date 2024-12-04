@@ -1,6 +1,6 @@
 # Emojis.json
 
-This repository contains a comprehensive list of emojis in JSON format, **version 16.0**
+This repository contains a comprehensive list of emojis in JSON format, **version 16.0.1**
 
 The data was sourced from the [Full Emoji Data](https://www.unicode.org/emoji/charts/full-emoji-list.html),
 **version 16.0**
@@ -25,6 +25,7 @@ The data was sourced from the [Full Emoji Data](https://www.unicode.org/emoji/ch
 | list.with.images.json                |    ✔     |     ❌     |   ✔    |   7 MB |
 | list.only.modifiers.with.images.json |    ❌     |     ✔     |   ✔    |   8 MB |
 | list.with.images.with.modifiers.json |    ✔     |     ✔     |   ✔    |  15 MB |
+| list.new.json                        |    ❌     |     ❌     |   ❌    |   1 KB |
 
 ### Array of Emoji Objects organized by Categories and Subcategories
 
@@ -33,7 +34,7 @@ The data was sourced from the [Full Emoji Data](https://www.unicode.org/emoji/ch
 | **categories.json**                        |    ✔     |     ❌     |   ❌    | 119 KB | 
 | categories.only.modifiers.json             |    ❌     |     ✔     |   ❌    | 218 KB | 
 | categories.with.modifiers.json             |    ✔     |     ✔     |   ❌    | 337 KB | 
-| categories.with.images.json                |    ✔     |     ❌     |   ✔    |   7 MB | 
+| categories.with.images.json                |    ✔     |     ❌     |   ✔    |   6 MB | 
 | categories.only.modifiers.with.images.json |    ❌     |     ✔     |   ✔    |   8 MB | 
 | categories.with.images.with.modifiers      |    ✔     |     ✔     |   ✔    |  15 MB |
 
